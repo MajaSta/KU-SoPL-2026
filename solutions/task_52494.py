@@ -1,11 +1,18 @@
-# ============================================================
-# Survey of Programming Languages — KU-SoPL-2026
 # Student ID : 52494
-# ============================================================
-# TASK
-# ----
-# Return the sum of digits at ODD positions (1-indexed: positions 2,4,6,...).
-# ============================================================
+# Course     : Survey of Programming Languages — KU-SoPL-2026
+#
+# ╔══════════════════════════════════════════════════════════╗
+# ║  YOUR TASK                                               ║
+# ║                                                          ║
+# ║  Return the sum of digits at ODD positions (1-indexed: positions 2,4,6,...).║
+# ║                                                          ║
+# ║  - digits are extracted from your ID string              ║
+# ║  - ignore the "-ex" suffix if present                    ║
+# ╚══════════════════════════════════════════════════════════╝
+#
+# Implement solve() below and return an integer.
+# Do NOT rename this file.
+# Run with:  python task_52494.py
 
 
 def solve(id: str) -> int:

@@ -1,11 +1,18 @@
-# ============================================================
-# Survey of Programming Languages — KU-SoPL-2026
 # Student ID : 48419-ex
-# ============================================================
-# TASK
-# ----
-# Return the product of all NON-ZERO digits in your ID.
-# ============================================================
+# Course     : Survey of Programming Languages — KU-SoPL-2026
+#
+# ╔══════════════════════════════════════════════════════════╗
+# ║  YOUR TASK                                               ║
+# ║                                                          ║
+# ║  Return the product of all NON-ZERO digits in your ID.   ║
+# ║                                                          ║
+# ║  - digits are extracted from your ID string              ║
+# ║  - ignore the "-ex" suffix if present                    ║
+# ╚══════════════════════════════════════════════════════════╝
+#
+# Implement solve() below and return an integer.
+# Do NOT rename this file.
+# Run with:  python task_48419_ex.py
 
 
 def solve(id: str) -> int:

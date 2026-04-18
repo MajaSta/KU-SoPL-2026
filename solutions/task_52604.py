@@ -1,11 +1,18 @@
-# ============================================================
-# Survey of Programming Languages — KU-SoPL-2026
 # Student ID : 52604
-# ============================================================
-# TASK
-# ----
-# Return the sum of digits divisible by 2 or by 3.
-# ============================================================
+# Course     : Survey of Programming Languages — KU-SoPL-2026
+#
+# ╔══════════════════════════════════════════════════════════╗
+# ║  YOUR TASK                                               ║
+# ║                                                          ║
+# ║  Return the sum of digits divisible by 2 or by 3.        ║
+# ║                                                          ║
+# ║  - digits are extracted from your ID string              ║
+# ║  - ignore the "-ex" suffix if present                    ║
+# ╚══════════════════════════════════════════════════════════╝
+#
+# Implement solve() below and return an integer.
+# Do NOT rename this file.
+# Run with:  python task_52604.py
 
 
 def solve(id: str) -> int:

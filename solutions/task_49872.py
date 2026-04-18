@@ -1,11 +1,18 @@
-# ============================================================
-# Survey of Programming Languages — KU-SoPL-2026
 # Student ID : 49872
-# ============================================================
-# TASK
-# ----
-# Return the sum of digits strictly less than 7.
-# ============================================================
+# Course     : Survey of Programming Languages — KU-SoPL-2026
+#
+# ╔══════════════════════════════════════════════════════════╗
+# ║  YOUR TASK                                               ║
+# ║                                                          ║
+# ║  Return the sum of digits strictly less than 7.          ║
+# ║                                                          ║
+# ║  - digits are extracted from your ID string              ║
+# ║  - ignore the "-ex" suffix if present                    ║
+# ╚══════════════════════════════════════════════════════════╝
+#
+# Implement solve() below and return an integer.
+# Do NOT rename this file.
+# Run with:  python task_49872.py
 
 
 def solve(id: str) -> int:
