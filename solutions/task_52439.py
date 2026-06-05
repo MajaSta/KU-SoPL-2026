@@ -21,7 +21,9 @@ def solve(id: str) -> int:
     Your id is passed as a string.
     Return an integer.
     """
-    pass
+    print("Number of digit 3: " + str(id.count("3")) + "\nNumber of digit 9: " + str(id.count("9")) + "\nTotal count: " + str(id.count("3") + id.count("9")))
+    return id.count("3") + id.count("9")
+
 
 
 if __name__ == "__main__":
