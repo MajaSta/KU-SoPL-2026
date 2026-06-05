@@ -21,7 +21,8 @@ def solve(id: str) -> int:
     Your id is passed as a string.
     Return an integer.
     """
-    pass
+    digits = [int(x) for x in id if x.isdigit()]
+    return sum(digits) - min(digits)
 
 
 if __name__ == "__main__":
